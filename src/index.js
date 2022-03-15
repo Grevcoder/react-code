@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {TodoComponent} from './component/TodoComponent';
+import MyFuncComponent from './component/MyFuncComponent';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <TodoComponent name="james"></TodoComponent>
+    <MyFuncComponent name="mike" age={30}></MyFuncComponent>
   </React.StrictMode>,
   document.getElementById('root')
 );
