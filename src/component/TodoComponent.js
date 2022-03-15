@@ -18,4 +18,4 @@ eventFunction=()=>
     console.log("HI");
 };
 //export default TodoComponent;
-export {TodoComponent}
+export default TodoComponent;
