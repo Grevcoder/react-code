@@ -3,6 +3,10 @@ body
 background-color:yellow;
 padding-left:500px;
 }
+h1
+{
+    margin-left: 8rem;
+}
 .Button
 {
     width: 100px;
@@ -20,13 +24,13 @@ padding-left:500px;
 }
 #result
 {
-    margin-left: 65px;
+    margin-left: 75px;
 }
 #addButton
 {
     background-color:brown;
     color: aliceblue;
-    margin-left: 10rem;
+    
 
 }
 
@@ -34,6 +38,7 @@ padding-left:500px;
 {
     background-color:blueviolet;
     color: aliceblue;
+    margin-left: 1rem;
 }
 
 #multiButton
