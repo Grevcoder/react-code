@@ -1,0 +1,49 @@
+body
+{
+background-color:yellow;
+padding-left:500px;
+}
+.Button
+{
+    width: 100px;
+    height: 100px;
+    padding-top: 500px;
+    background-color: red;
+}
+#first
+{
+    margin-left: 30px;
+}
+#second
+{
+    margin-left: 5px;   
+}
+#result
+{
+    margin-left: 65px;
+}
+#addButton
+{
+    background-color:brown;
+    color: aliceblue;
+    margin-left: 10rem;
+
+}
+
+#subButton
+{
+    background-color:blueviolet;
+    color: aliceblue;
+}
+
+#multiButton
+{
+    background-color:rebeccapurple;
+    color: aliceblue;
+}
+
+#divButton
+{
+    background-color:black;
+    color: aliceblue;
+}
