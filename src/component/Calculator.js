@@ -16,7 +16,7 @@ class Calculator extends React.Component {
           <input
             type="number"
             id="first"
-            onChange={(sum) => this.setState({ firstNumber: sum.target.value })}
+            onChange={(e) => this.setState({ firstNumber: e.target.value })}
             value={this.state.firstNumber}
           />
           <br></br>
@@ -27,8 +27,8 @@ class Calculator extends React.Component {
           <input
             type="number"
             id="second"
-            onChange={(sum) =>
-              this.setState({ secondNumber: sum.target.value })
+            onChange={(e) =>
+              this.setState({ secondNumber: e.target.value })
             }
             value={this.state.secondNumber}
           />
