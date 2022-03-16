@@ -9,7 +9,7 @@ import Calculator from './component/Calculator';
 
 ReactDOM.render(
   <React.StrictMode>
-    
+    <App></App>
   <Calculator ></Calculator>
     
   </React.StrictMode>,
