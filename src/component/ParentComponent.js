@@ -19,7 +19,7 @@ function ParentComponent() {
 
 
   const parentToChild = () => {
-    setData("ALl Values Submitted");
+    setData("All Values Submitted");
      };
 
  const handleChange = (e) =>{
@@ -87,7 +87,7 @@ function ParentComponent() {
         </button>
       </div>
       <div>
-        
+      <ChildComponent parentToChild={data} />
       </div>
     
     </div>
