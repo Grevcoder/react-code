@@ -10,7 +10,11 @@ function ParentComponent() {
   const [data, setData] = useState('');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
+<<<<<<< HEAD
   const [age, setAge] = useState();
+=======
+  const [age, setAge] = useState('0');
+>>>>>>> 617fcfcd3cf811027ee119c6d06976466fffd104
   const [address, setAddress] = useState('');
   const [hobbies, setHobbies] = useState([]);
   /*const handleChange = (e) => {
