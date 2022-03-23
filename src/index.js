@@ -5,16 +5,21 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Calculator from './component/Calculator';
 import CalculatorWithHook from './component/CalculatorWithHook';
+import Squre from './component/Squre';
 //import {TodoComponent} from './component/TodoComponent';
 //import MyFuncComponent from './component/MyFuncComponent';
 
 ReactDOM.render(
   <React.StrictMode>
-    {
-   /* <App></App>
-  <Calculator ></Calculator>*/
-    } 
-    <CalculatorWithHook>npm</CalculatorWithHook>
+   { 
+  
+ // <CalculatorWithHook></CalculatorWithHook>
+   }  
+    <App></App>
+{
+//<Calculator ></Calculator>
+}
+
   </React.StrictMode>,
   document.getElementById('root')
 );
