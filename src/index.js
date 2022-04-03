@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+//import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Calculator from './component/Calculator';
@@ -15,7 +15,8 @@ ReactDOM.render(
   
  // <CalculatorWithHook></CalculatorWithHook>
    }  
-    <App></App>
+   <App></App>
+  
 {
 //<Calculator ></Calculator>
 }
