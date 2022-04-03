@@ -1,20 +1,37 @@
 //import react and use state
-import { useState } from "react";
+import { useState,useEffect} from "react";
 import ReactDOM from "react-dom";
+import styles from  './mystyle.module.css'
+/*import styled from "styled-components";
+
+const StyleButton=styled.button`
+background-color:black
+`;*/
 //function for calculator
 function CalculatorWithHook()
 {
     //set use state
     const[firstNumber,setFirstNumber]=useState('');
     const[secondNumber,setSecondNumber]=useState('');
+    const[count,setCount]=useState(0);
+
+    useEffect(()=>{setTimeout(()=>{
+      setCount((count)=>count+1);
+    },[count]);
+    });
    
     return(
         <div>
-           <h1> Calculator</h1>
+           <h1 className={styles.test}> Calculator</h1>
+          {// <h2>I have rendered {count} Times!</h2>
+          }
+             { //<StyleButton> Login </StyleButton>;
+           }
            <div>
           <label>First Number</label>
           <input type="text" name="firstNumber" id="first" onChange={e =>setFirstNumber(e.target.value)}/>    
-         <button  type="button" id="addButton" onClick={()=>sum()}>add</button>   
+
+         <button type="button" id="addButton" onClick={()=>sum()}>add</button>   
          <button  type="button" id="subButton" onClick={()=>subtraction()}>sub</button>           
         </div>
         
