@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import {BrowserRouter,Routes,Route,Link} from "react-router-dom";
-//import './App.css';
+import './App.css';
 import Calculator from './component/Calculator';
 import Login from './component/Login';
 import Sucess from './component/Sucess';
@@ -17,30 +17,14 @@ function App() {
     <div className="App">
     <h1></h1>  
     {//<ParentComponent></ParentComponent>
-    }
-    
-
-    
-    
+    }   
     <BrowserRouter>
-    
-  
-{
- /*   <nav>
-    <Link to="/Sucess">Sucess Page</Link>
-    <Link to="/Fail">Sucess Page</Link>
-    </nav>*/
-}
       <Routes>
       <Route  path="/" element={<Login/>}/>
         <Route  path="Sucess" element={<Sucess/>}/>
         <Route  path="Fail" element={<Fail/>}/>
       </Routes>
-      </BrowserRouter>
-      
-
-    
-
+      </BrowserRouter>  
     </div>
   );
 }
