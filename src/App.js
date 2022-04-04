@@ -6,25 +6,24 @@ import Calculator from './component/Calculator';
 import Login from './component/Login';
 import Sucess from './component/Sucess';
 import Fail from "./component/Fail";
-
-
 //import ParentComponent from './component/ParentComponent';
-
 function App() {
   const[user,changeUser]=useState('userSucess');
   return (
+        <div className="App">
     
-    <div className="App">
     <h1></h1>  
     {//<ParentComponent></ParentComponent>
     }   
-    <BrowserRouter>
-      <Routes>
-      <Route  path="/" element={<Login/>}/>
-        <Route  path="Sucess" element={<Sucess/>}/>
-        <Route  path="Fail" element={<Fail/>}/>
+    
+    <BrowserRouter> 
+   <Routes>        
+    <Route path="/" element={<Login/>}/>
+     <Route  path="Sucess" element={<Sucess/>}/>
+       <Route  path="Fail" element={<Fail/>}/>
       </Routes>
       </BrowserRouter>  
+    
     </div>
   );
 }
